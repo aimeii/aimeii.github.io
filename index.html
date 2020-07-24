@@ -1,138 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+  <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Amy An</title>
-  <!-- <link rel='icon' type='image/x-icon' href='/assets/favicon.ico'/>
-  <link rel='shorcut icon' type='image/x-icon' href='/assets/favicon.ico'/> -->
-  <link rel="shortcut icon" type='image/x-icon' href="/assets/favicon.ico">
-	<link rel="icon" type='image/x-icon'sizes="16x16 32x32 64x64" href="/assets/favicon.ico">
-	<link rel="icon" type='image/x-icon' sizes="196x196" href="/assets/favicon-192.png">
-	<link rel="icon" type='image/x-icon' sizes="160x160" href="/assets/favicon-160.png">
-	<link rel="icon" type='image/x-icon' sizes="96x96" href="/assets/favicon-96.png">
-	<link rel="icon" type='image/x-icon' sizes="64x64" href="/assets/favicon-64.png">
-	<link rel="icon" type='image/x-icon' sizes="32x32" href="/assets/favicon-32.png">
-	<link rel="icon" type='image/x-icon' sizes="16x16" href="/assets/favicon-16.png">
-	<link rel="apple-touch-icon" href="/assets/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="/favicon-144.png">
-	<meta name="msapplication-config" content="/browserconfig.xml">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
 
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/projects.min.css">
+<style>
+.intro {
+  padding-top: 10rem;
+  margin-bottom: 6rem;
+}
 
+body {
+  background-size: 30px 30px;
+  background-image:
+    linear-gradient(to right, #d7edf5 1px, transparent 1px),
+    linear-gradient(to bottom, #d7edf5 1px, transparent 1px);
+}
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-
-  <body class="animated fadeIn">
-
-    <header class="intro-color" role="banner">
-  <nav class="navbar navbar-inverse scroll-top" role="navigation">
-    <div class="navbar-container nav-wrapper" id=#scrolltop>
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"
-        data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+<!-- Page Content -->
+<body>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top container-fullwidth" id="mainNav">
+    <div class ="container">
+    <div class=" d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"></span>
+        <a class="navbar-brand mx-auto d-lg-none d-inline-block text-uppercase" href="#page-top">Amy An</a>
+        <div class="w-100 text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-brand">
-          <h3 class="home-navbar">
-            <a href="index.html">
-              Amy An
-            </a>
-          <h3>
         </div>
-      </div><!-- end navbar header-->
+    </div>
+          <div class="navbar-collapse collapse w-100 order-md-0 dual-collapse2">
+                  <ul class="navbar-nav abs-center-x">
+                          <li class="nav-item">
+                              <a class="navbar-brand d-none d-lg-inline-block href"="#page-top">
+                                  Amy An
+                              </a>
+                          </li>
+                      </ul>
+                  <div class="order-2">
+                  <ul class="navbar-nav justify-content-between flex-nowrap">
+                          <li class="nav-item">
+                              <a class="nav-link m-2 menu-item js-scrolltrigger" href="index.html">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link m-2 menu-item js-scrolltrigger" href="about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link m-2 menu-item js-scrolltrigger" href="resume.pdf" target="_blank">Resume</a>
+                          </li>
+                      </ul>
+                  </div>
 
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><h3 class="home-navbar"><a class="nav-link dropdown-toggle" href="resume.pdf">Resume</a></h3></li>
-          <li><h3 class="home-navbar"><a class="nav-link dropdown-toggle" href="about.html">About</a></h3></li>
-        </ul>
+              <div class="navbar-collapse collapse dual-nav w-50 order-1" id="navbarResponsive">
+                      <ul class="nav navbar-nav">
+                          <li class="nav-item ">
+                                  <a class="nav-link" href="https://www.linkedin.com/in/amy-zhong-an/" target="_blank">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                  </a>
+                          </li>
+                          <li class="nav-item ">
+                                  <a class="nav-link" href="mailto:amyzhongan@gmail.com" target="_blank">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                  </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+      </nav>
+
+  <div class="intro">Hello, I'm Amy! I currently do UX Research for <a href="https://www.verizonconnect.com/" target="_blank">Verizon Connect</a>. Presently, I'm studying Cognitive Science, Design and Interaction, and Computer Science in order to design and develop meaningful experiences.</div>
+
+  <div class="title">INDUSTRY INTERNSHIPS</div>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="https://www.verizonconnect.com/"><img class="card-img-top" src="img/verizon.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://www.verizonconnect.com/">Verizon</a>
+          </h4>
+          <p class="card-text"><mark>UX Researcher</mark> for a 10 week long summer internship. Conducted user interviews, a heuristic evaluation, card sort, and stakeholder interviews.</p>
+        </div>
       </div>
     </div>
-  </nav>
-</header>
-
-
-
-
-
-    <main class="page-content" aria-label="Content">
-      <div id="onPalm"></div>
-        <div class="wrapper">
-    <div class="hero">
-      <div class="hero-text">
-        <h2 class"animated fadeIn">I'm Amy! Nice to meet you.</h2>
-          <p class="animated fadeIn">My current role is a UX Designer for the <a href="http://ddi.ucsd.edu/" target="_blank">Diabetes Design Initiative</a> at the UC San Diego Design Lab. Presently, I'm studying Cognitive Science, Design and Interaction, and Computer Science in order to design and develop meaningful experiences.</p>
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="http://ddi.ucsd.edu/"><img class="card-img-top" src="img/dexcom.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="http://ddi.ucsd.edu/">Dexcom</a>
+          </h4>
+          <p class="card-text"><mark>Product Designer</mark> as a part of the Diabetes Design Initative. Worked with stakeholders and mentors affiliated with the UCSD Design Lab and Dexcom.</p>
+        </div>
       </div>
     </div>
   </div>
-</header>
+  <!-- /.industry -->
 
-<div class="wrapper page-content">
-   <div class="anchor animated fadeIn" id="projects">
-    <div class="header proj1">
-        <h4> FEATURED WORK: </h4>
-    </div>
-    <div id="work1">
-    </div>
-
-<section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="eggspired.html">
-            <img class="img-fluid" src="img/eggspired.png" alt="">
-          </a>
+  <div class="title">BUILDING COMMUNITY</div>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="https://acmucsd.com/"><img class="card-img-top" src="img/acm.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://acmucsd.com/">ACM SIGCHI</a>
+          </h4>
+          <p class="card-text"><mark>Creative Director</mark> for the Association for Computing Machinery @ UCSD. Founding member of ACM's Special Interest Group in Human Computer Interaction.</p>
         </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="venmo.html">
-            <img class="img-fluid" src="img/venmo.png" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="blueprint.html">
-            <img class="img-fluid" src="img/blueprint.png" alt="">
-          </a>
       </div>
     </div>
-  </section>
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="http://www.ucsddesign.co/"><img class="card-img-top" src="img/designco.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="http://www.ucsddesign.co/">Design Co</a>
+          </h4>
+          <p class="card-text"><mark>Industry Relations Coordinator</mark> for the largest design community at UC San Diego.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="title">PASSION PROJECTS</div>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="https://huecollective.co/"><img class="card-img-top" src="img/hue.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://huecollective.co/">Hue Collective</a>
+          </h4>
+          <p class="card-text"><mark>Writer</mark> for Hue Collective, a digital zine that showcases different experiences and perspectives in design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="http://dev.intelecthub.com/?fbclid=IwAR1CDehuB-FVNEygAinbjum6rU0c5jiPStlmnKvySXswycE_n1aIeEPDIOk"><img class="card-img-top" src="img/intelect.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="http://dev.intelecthub.com/?fbclid=IwAR1CDehuB-FVNEygAinbjum6rU0c5jiPStlmnKvySXswycE_n1aIeEPDIOk">IntElect</a>
+          </h4>
+          <p class="card-text"><mark>Product Designer</mark> for IntElect. An online resource that recommends classes based on a student's college requirements and career development needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="title">AWARDS: HACKATHONS & DESIGN SPRINTS</div>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="https://devpost.com/software/novid-19"><img class="card-img-top" src="img/novid19.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://devpost.com/software/novid-19">NOVID-19</a>
+          </h4>
+          <p class="card-text"><mark>UX Designer:</mark> Mobile app that uses contact-tracing to track the spread of the coronavirus. Won prizes from <u>Oracle Cloud Infrastructure & PwC</u> at LA Hacks 2020</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card h-100">
+        <a href="https://devpost.com/software/unmask-fqdblz"><img class="card-img-top" src="img/commonwealth.png" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="https://devpost.com/software/unmask-fqdblz">Commonwealth</a>
+          </h4>
+          <p class="card-text"><mark>UX Designer:</mark> Reveal hidden social and environmental costs behind your spending to help save the world and your community. Won <u>3rd place overall </u> at Citrus Hack 2020</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-    </main>
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
-
-  </body>
-
+</div>
+<!-- /.container -->
+</body>
 </html>
