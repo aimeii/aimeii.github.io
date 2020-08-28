@@ -14,8 +14,19 @@
 
 <style>
 .intro {
-  padding-top: 10rem;
+  padding-top: 5rem;
   margin-bottom: 6rem;
+  background: white;
+  font-family: karla !important;
+  font-size: 1rem !important;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 body {
@@ -86,156 +97,83 @@ body {
       <div class="intro">
 
 
-      <p><img src="img/eggspired1.png" width="100%" height="100%"/></p>
+      <p><img src="img/dexcom1.png" width="100%" height="100%"/></p>
 
       <div id="1">
-      <h2 id="summary">Eggspired</h2>
+      <h2 id="summary">Overview</h2>
+      <li>
+      Timeline: 10 weeks<br></li>
+      <li>
+      Team: Amy An, <a href = "https://www.neveforesti.com/">Neve Foresti</a>, Adam Gomez<br></li>
+      <li>
+      Position: UX Designer and Researcher</li>
+      <br>
+      </ul>
+
       </div>
-      <h3 id="context"></h3>
+      <h3 id="context"> Background</h3>
 
-      <p>Eggspired is a 36 hour webapp project created at SD Hacks as part of the sustainability challenge. Eggspired has the same functionality of a grocery list with the additional feature of reminding users when their food is about to expire through a notification.
-
+      <p>My team was a part of the <a href = "http://ddi.ucsd.edu/index.html">Diabetes Design Initiative (DDI)</a>, a program at UC San Diego’s Design Lab that utilizes human centered design processes in order to create better technology for people with diabetes. DDI partners with Dexcom, a company that produces continuous glucose monitoring (CGM) systems for diabetes management.
       </p>
 
-      <p><strong>The Team</strong>: Amy An, Quylan Mac, Parth Shah, Vedparkash Singh</p>
+      <p><strong>What is a CGM?</strong></p>
+      <p>A continuous glucose monitoring (CGM) device allows people with diabetes to continuously track their glucose levels. CGM systems take glucose measurements and translate that information into dynamic data alerting users if their levels go too high or low. A CGM attaches to the user's body and gives real-time readings every 5 minutes. </p>
 
-      <p><strong>My Role</strong>: I was responsible for idea generation through user research, creating ui elements, envisioning the user experience, providing a high fidelity prototype for the coding team, and some front end development.<br><br><br></p>
+      <br>
+      <p><img src="img/cgm.png" class="center"></p>
 
+      <h3 id="context"> The Problem</h3>
 
-      <div id="2">
-      <h2 id="what-is-the-value-of-this-visualization">Research</h2>
-      </div>
-      <h3 id="showing-data-over-time">The Problem</h3>
+      <p>One of the key benefits for users with a CGM is that they are able to see their glucose levels continuously. Being able to reliably check these numbers whenever they need throughout their day provides a level of support and stability. Therefore when these numbers are unavailable, users lose this sense of support and begin to worry, leading to a high call volume. Signal Loss is the most common error message that prevents users from receiving readings. This error usually lasts around 30 minutes when the transmitter loses bluetooth connection with the mobile phone.
+      </p>
+      <br>
+      <p align="center"><img src="img/signalloss.png" width="20%" height="20%"></p>
+      <p align="center"><strong>"How might we help manage signal loss?"</strong></p>
+      <br>
+      <h3 id="context"> My Process</h3>
+      <p>To tackle this problem, my team and I worked through a human centered design process. Our work flow consisted of user research, brainstorm and rapid ideation, low fidelity prototypes, user feedback, and high fidelity prototypes.
+      <p><strong>User Research:</strong></p>
       <ul>
       <li>
-        <a href="http://www.fao.org/save-food/resources/keyfindings/en/">1.3 billion tons of food wasted every year<br><br></a></li>
+      Reviewed Online Dexcom Forums: Facebook, Reddit, Twitter<br></li>
       <li>
-      <a href = "https://www.marketwatch.com/story/want-to-save-at-the-supermarket-compost-2013-06-18">Most reported reason being misinterpreting expiration dates (90% of Americans)<br><br></a></li>
+      4 in Depth User Interviews<br></li>
       <li>
-      <a href = "https://www.forbes.com/sites/bethhoffman/2014/04/11/the-shocking-cost-of-food-waste/#6eca5dfd694b">Additional, $700 billion wasted in natural resources: water, cleared forests, & greenhouse gas</a></li>
-      </li>
+      8 Stakeholder Interviews with Dexcom Managers and Designers</li>
+      <li>
+      2 Unique User Personas</li>
       </ul>
 
-      <h3 id="showing-data-over-time">Mind Map & Brainstorm</h3>
+      <p>Key research insights we found to be helpful included the difference in technological ability between younger and older users, the range in familiarity of the current user interface between new and experienced users, and the effect of visuals to efficiently convey complex health related information.
+        Some industry constraints to consider included the nature of changes in the Healthcare industry being slow and incremental due to the many rules and regulations on sharing information.
+      </p>
 
-      <p>I started the design process by brainstorming our problem: food waste. After brainstorming about our users, their problems, and other topics related to food waste, I was able to gain a better understanding of what would be the most optimal technology in terms of usability and helpfulness.</p>
+      <p><strong>Low Fidelity Prototypes</strong></p>
+      <p> Due to these constraints it was difficult to brainstorm incredibly innovative and novel solutions which we learned through early meetings with stakeholders. We knew we had to keep the app accessible to all users and hold the highest standard of integrity for the information the app provides. Our challenge was
+        particularly challenging since we were designing a solution for when important information was not available. Keeping this in mind, we proposed a solution that had distinct user flows for new and experienced users. The feedback we received on our first iteration was that we should break down our proposal into seperate parts. Doing this would allow business leaders
+        to discuss each incremental change and whether to implement it.
 
-      <p><img src="img/eggspiredmindmap.jpeg" width="100%" height="100%" /></p>
+      <p><img src="img/lowfi1.png" width="100%" height="100%" class="center"></p>
 
-      <p><strong>User Demographics</strong>:</p>
+      <p><strong>More Iterations</strong></p>
+      <p> After separating our all encompassing solution into many distinct experiences, we further expanded on those ideas and created user flows around each iteration. We then presented each of these experiences to Dexcom users and used their feedback to refine our designs.
+      </p>
 
-      <ul>
-      <li>
-      <p>People who are busy or forgetful like families or elderly</p>
-      </li>
-      <li>
-      <p>People who are not knowledgeable about when their food expires like students or young adults<br><br></p>
-      </li>
-      </ul>
+      <p><strong>High Fidelity Prototype</strong></p>
+      <p> Ultimately our final presentation to Dexcom stakeholders contained three solutions that could work together or separately to provide an improved user experience when signal loss occurs. We concluded our work by demonstrating our interactive Figma prototypes and presenting our slide deck and poster that outlines our design process and outcomes.
+      </p>
 
-      <p><strong>User Challenges</strong>:</p>
-
-      <ul>
-      <li>
-      <p>Hard to remember expiration dates</p>
-      </li>
-      <li>
-      <p>Can't physically see everything in fridge</p>
-      </li>
-      <li>
-      <p>Overbuying food<br><br></p>
-      </li>
-      </ul>
-
-      <p><strong>User Goals</strong>:</p>
-
-      <ul>
-      <li>
-      <p>Save money on groceries</p>
-      </li>
-      <li>
-      <p>Be less wasteful</p>
-      </li>
-      <li>
-      <p>Stay organized and healthy<br><br><br></p>
-      </li>
-      </ul>
-
-      <div id="3">
-      <h2 id="defining-the-experience">Wireframes and Sketches</h2>
-      </div>
-
-      <p><img src="img/eggwireframe1.jpeg" width="100%" height="100%" /></p>
-
-
-      <h3 id="the-goal-is-not-to-build-charts">Feedback</h3>
-      <p><br></p>
-
-      <p><strong> 1. Finalized low fidelity wireframe</strong></p>
-      <p>My first few designs played with the distinction between the foods that need to be purchased and the foods that were already obtained. I made serveral iterations that had different ways of creating a distinction between these two categories, including: having the items closest to their expiration date at the top of the list (Iteration #1), having two distinct sections for both on one screen (Iteration #2), and splitting up the sections between two screens (Iteration #3). <br></p>
-      <p>I presented these three iterations to potential users who provided more positive feedback on iterations #2 and #3. However, both have trade offs for different types of users. For example, by having all items appear on one screen it is easy for the user to see what groceries they have and what they need (Iteration #2), but this limits the amount of food that can appear. What happens when the user has alot of groceries? This issue is solved by iteration #3 through splitting the food items into two screens. However, since users must navigate through different screens, it will take them more time to identify their items.<br><br></p>
-
-
-      <p><strong> 2. Added check off features</strong></p>
-
-      <p align="center">"What if I use my food before it expires?<br></p>
-      <p>After watching potential users interact with the paper prototypes, I realized I had overlooked a key feature. Users must be able to check off if they used an item from their fridge. These items must be distinguished from purchased items, meaning that there must be two distinct checks for each item, once when the item is bought and once when the item is used. <br></p>
-      <p><br><br><br></p>
-
-
-
-      <div id="4">
-      <h2 id="mobile-interactions">High Fidelity Wireframe</h2>
-      </div>
-
-      <p><img src="img/final1.png" width="100%" height="100%" /></p>
-
-
-
-      <p>After reviewing user feedback from my low fidelity prototypes, my final iterations consisted of one screen that was split up into two sections. The first section is for users to add food items to their grocery list. They do this by typing in the name of the food item into the search bar which searches our database and provides suggestions for what item the user is adding. Once the item is added, it can either be checked off which indicates that the user has bought the item, or removed which takes the item off the list.</p>
-      <p>The second section is for the purchased items. These are items that the user has already checked off from their grocery list. In this section, the item is followed by the number of days until its expiration date. If the user uses the item before it expires, they can check it off and it will be removed from the list. Once an item nears its expiration date, it will turn red and notify the user through a text message to remind them to eat their food.</p>
-
-      <p><img src="img/final2.png" alt="Atomic item selection" <br><br><br></p>
-
-      <div id="5">
-      <h2 id="visual-exploration">Technical Hurdles</h2>
-      </div>
-
-      <p><img src="img/egginfo.png" width="100%" height="100%"/></p>
-
-      <p>We used HTML, CSS, and Javascript for the front end of our webapp. For our backend, we webscraped data from eatbydate.com in order to create a database using MySQL, filled with each food item and their corresponding expiration dates. Finally, in order to alert the users with a notification we used the Twilio API which is a cloud communication platform that programmatically makes and recieves text messages.<br><br><br></p>
-
+      <p><img src="img/hifi.png" width="100%" height="100%" class="center"></p>
+      <p><img src="img/poster.png" width="100%" height="100%" class="center"></p>
 
       <div id="6">
-      <h2 id="my-biggest-takeaways">Closing Thoughts and Next Steps</h2>
+      <h2 id="my-biggest-takeaways">Reflection</h2>
       </div>
-
-      <p> This project gave me insight on what it was like to work on a diverse team in order to create a real, working product. This project differed from my previous design experience since my teamates were not fellow designers, but front end and backend developers. Working on this project together greatly improved my technical communication skills as well as my ability to adapt.
-      <p> Since this project was made at a hackathon, there was a challenging time constraint of 36 hours. We encountered many problems that slowed down development progress. There were times when more attention to software was needed as opposed to design. Through this experience, I learned to be more adaptable by identifying and working on the task that is most needed at the time.<br><br></p>
-
-      <p><strong>Takeaways and Learning Experiences:</strong></p>
-
-      <ul>
-      <li>
-      <p>Oversaw an entire design process from idea generation to high fidelity prototypes</p>
-      </li>
-      <li>
-      <p>Worked and communicated with diverse teamates</p>  </li>
-      <li>
-      <p>Adapted my skills in order to solve problems</p>
-      </li>
-      <li>
-      <p>Professionally presented product to judges, answered any questions and iterated on criticism</p>
-      </li>
-      </ul>
-      </div>
-      </div>
-
-      </article>
-
-      </main>
-
-
+      <p> I've learned so much from this experience from how to best communicate with stakeholders to the intense regulations of the healthcare industry. In addition to strengthening my skills as a researcher and designer, I've learned the importance of word choice and providing options to decision makers and the importance of good design choices for the people who rely on CGMs to live. Thank you to everyone at DDI for creating this program! Our work would not have been possible without the feedback and support from Lars Müller, Heidi Rataj, Colleen Emmenegger, and Ben West.
+      <br>
+      <br>
+      <br>
+      </p>
 </div>
 <!-- /.container -->
 <script src="js/jquery.min.js"></script>
