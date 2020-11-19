@@ -36,7 +36,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 body {
@@ -107,79 +106,88 @@ body {
 
 
 
-      <img src="img/dexcom1.png" class="titlepic" width="100%" height="100%"/>
+      <img src="img/novidbanner.png" class="titlepic" width="100%" height="100%"/>
 
       <div class="intro">
 
       <div id="1">
       <h2 id="summary">Overview</h2>
       <li>
-      Timeline: 10 weeks<br></li>
+      Timeline: LA Hacks 2020 (36 Hour Hackathon) + 2 additional weeks<br></li>
       <li>
-      Team: Amy An, <a href="https://www.neveforesti.com/" target="_blank"> Neve Foresti</a>, Adam Gomez<br></li>
+      Team: Amy An, Wilson Do, Jesse Liang, <a href="http://quylanmac.com/" target="_blank"> Quylan Mac</a>, Anurag Pamuru<br></li>
       <li>
-      Position: UX Designer and Researcher</li>
+      Roles: UX Researcher, UX Designer</li>
       <br>
       </ul>
 
       </div>
       <h3 id="context"> Background</h3>
 
-      <p>My team was a part of the <a href="http://ddi.ucsd.edu/index.html" target="_blank"> Diabetes Design Initiative (DDI)</a>, a program at UC San Diego’s Design Lab that utilizes human centered design processes in order to create better technology for people with diabetes. DDI partners with Dexcom, a company that produces continuous glucose monitoring (CGM) systems for diabetes management.
+      <p>This year, the COVID-19 pandemic has changed the way we interact with our communities. Although the CDC recommends isolation and social distancing to prevent the spread of coronavirus, many people have the essential need for traveling. Our project aims to reduce the growth rate of coronavirus within our communities by providing people with a platform for their essential travel needs.
       </p>
 
-      <p><strong>What is a CGM?</strong></p>
-      <p>A continuous glucose monitoring (CGM) device allows people with diabetes to continuously track their glucose levels. CGM systems take glucose measurements and translate that information into dynamic data alerting users if their levels go too high or low. A CGM attaches to the user's body and gives real-time readings every 5 minutes. </p>
-
+      <p>Coronavirus has a 2 week long asymptomatic period where an infected person does not experience any symptoms of the virus but can still infect others. Additionally, the virus can last up to 72 hours on surfaces meaning people can still be infected even if they were not in direct contact with a carrier. </p>
       <br>
-      <img src="img/cgm.png" class="center">
+      <h3 id="context"> The Challenge:</h3>
       <br>
-
-      <h3 id="context"> The Problem</h3>
-
-      <p>One of the key benefits for users with a CGM is that they are able to see their glucose levels continuously. Being able to reliably check these numbers whenever they need throughout their day provides a level of support and stability. Therefore when these numbers are unavailable, users lose this sense of support and begin to worry, leading to a high call volume. Signal Loss is the most common error message that prevents users from receiving readings. This error usually lasts around 30 minutes when the transmitter loses bluetooth connection with the mobile phone.
-      </p>
-      <p align="center"><img src="img/signalloss.png" width="20%" height="20%"></p>
-      <p align="center"><strong>"How might we help manage signal loss?"</strong></p>
+      <img src="img/thechallenge.png" width="90%" height="90%" class="center">
       <br>
-      <h3 id="context"> My Process</h3>
-      <p>To tackle this problem, my team and I worked through a human centered design process. Our work flow consisted of user research, brainstorm and rapid ideation, low fidelity prototypes, user feedback, and high fidelity prototypes.
-      <p><strong>User Research:</strong></p>
+      <h3 id="context"> Our Solution</h3>
+      <p>A mobile app that provides users with a platform for essential travel while using contact tracing to track the spread of coronavirus. NOVID-19 uses bluetooth and location settings to calculate the population density based on the number of devices nearby. With this technology, users can also see how many other users they come into contact with and if they are at risk for coronavirus.
+      <br></p>
+      <h3 id="context"> UX Research</h3>
+      <p>We chose to conduct surveys and user interviews to gain a better understanding of essential travel needs within different households. During this process we confirmed the real need for essential businesses including grocery stores and pharmacies to remain open but also noticed a trend in other public areas including parks and schools.
+      <br><br><br>
+      <img src="img/novid1.png" width="80%" height="50%" class="center">
+      <br><br>
+      <p>We gathered data from 10 households which totaled to 41 people. These people differed in location, age, and socioeconomic status. Through our user research we aimed to gain a better understanding of many different types of households and the essential travel needs that each one has.</p>
+
+      <p align="center"><strong>Who am I designing for?:</strong></p>
+      <img src="img/novid2.png" width="70%" height="70%" class="center">
+      <p><strong>User Needs:</strong></p>
       <ul>
       <li>
-      Reviewed Online Dexcom Forums: Facebook, Reddit, Twitter<br></li>
+      Safe method of travel: public transportation/walking <br></li>
       <li>
-      4 in Depth User Interviews<br></li>
+      Available essential businesses goods (ex. Groceries, medical supplies)<br></li>
       <li>
-      8 Stakeholder Interviews with Dexcom Managers and Designers</li>
-      <li>
-      2 Unique User Personas</li>
+      Knowledge about compromised public spaces (ex. Schools, parks, essential businesses)</li>
       </ul>
+      <h3 id="context"> User Flow</h3>
+      <img src="img/novid3.png" width="100%" height="100%" class="center">
 
       <p>Key research insights we found to be helpful included the difference in technological ability between younger and older users, the range in familiarity of the current user interface between new and experienced users, and the effect of visuals to efficiently convey complex health related information.
         Some industry constraints to consider included the nature of changes in the Healthcare industry being slow and incremental due to the many rules and regulations on sharing information.
       </p>
 
-      <p><strong>Low Fidelity Prototypes</strong></p>
+      <h3 id="context"> Low Fidelity Prototypes</h3>
       <p> Due to these constraints it was difficult to brainstorm incredibly innovative and novel solutions which we learned through early meetings with stakeholders. We knew we had to keep the app accessible to all users and hold the highest standard of integrity for the information the app provides. Our challenge was
         particularly challenging since we were designing a solution for when important information was not available. Keeping this in mind, we proposed a solution that had distinct user flows for new and experienced users. The feedback we received on our first iteration was that we should break down our proposal into seperate parts. Doing this would allow business leaders
         to discuss each incremental change and whether to implement it.
 
-      <p><img src="img/lowfi1.png" width="100%" height="100%" class="center"></p>
+      <p><img src="img/novid4.png" width="100%" height="100%" class="center"></p>
 
-      <p><strong>More Iterations</strong></p>
+      <h3 id="context"> A/B Testing</h3>
       <p> After separating our all encompassing solution into many distinct experiences, we further expanded on those ideas and created user flows around each iteration. We then presented each of these experiences to Dexcom users and used their feedback to refine our designs.
       </p>
 
-      <p><img src="img/moreiterations.png" class="center"></p>
+      <img src="img/novidtesting.png" width="70%" height="70%" class="center">
 
+      <p><strong>Final Lo-Fi Prototype</strong></p>
+      <p> The results of our A/B Testing concluded that option A was the better choice. Users enjoyed being able to see both the maps and their past trips at initial glance. Option A also allows for users to quickly identify a compromised trip.
+      </p>
+
+      <img src="img/finallowfi.png" width="80%" height="80%" class="center">
 
       <p><strong>High Fidelity Prototype</strong></p>
       <p> Ultimately our final presentation to Dexcom stakeholders contained three solutions that could work together or separately to provide an improved user experience when signal loss occurs. We concluded our work by demonstrating our interactive Figma prototypes and presenting our slide deck and poster that outlines our design process and outcomes.
       </p>
 
-      <img src="img/hifi.png" width="100%" height="100%" class="center">
-      <img src="img/poster.png" width="100%" height="100%" class="center">
+      <img src="img/fatty.png" width="100%" height="100%" class="center">
+
+      <h3 id="context"> Style Guide</h3>
+      <img src="img/styleguidenovid.png" width="100%" height="100%" class="center">
 
       <div id="6">
       <h2 id="my-biggest-takeaways">Reflection</h2>
